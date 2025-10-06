@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title>I dwell in Possibility <bundle num="466">– (466)</bundle></title>
+    <byLine id="ED">By Emily Dickinson</byLine>
+    <stanza>
+        <line num="1">I <verb>dwell</verb> in Possibility –</line>
+        <line num="2">A fairer House than Prose –</line>
+        <line num="3">More numerous of Windows –</line>
+        <line num="4">Superior – for Doors –</line>
+    </stanza>
+    <stanza>
+        <line>Of Chambers as the Cedars –</line>
+        <line>Impregnable of eye –</line>
+        <line>And for an everlasting <structureBreak part="1">Roof</structureBreak></line>
+        <line><structureBreak part="2">The Gambrels of the Sky –</structureBreak></line>
+    </stanza>
+   <!-- ebb: In the next stanza I decided to mark this differently using "self-closing" elements,
+   sometimes called "milestone-style" elements.-->
+    
+    <stanza><lb/>Of Visitors – the fairest – <lb/>For Occupation – This – <lb/>The spreading wide my
+        narrow <phrase>Hands <lb/>To gather Paradise –</phrase></stanza>
+    <copyrightInfo>Copyright Credit: THE POEMS OF EMILY DICKINSON: READING EDITION, edited by Ralph
+        W. Franklin, Cambridge, Mass.: The Belknap Press of Harvard University Press, Copyright ©
+        1951, 1955, 1979, 1983, 1998, 1999 by the President &amp; Fellows of Harvard College.
+        Copyright © 1914, 1918, 1924, 1929, 1930, 1932, 1935, 1937, 1942 by Martha Dickinson
+        Bianchi. Copyright © 1952, 1957, 1958, 1963, 1965 by Mary L. Hampson. Source: The Poems of
+        Emily Dickinson Edited by R. W. Franklin (Harvard University Press, 1999) Web publication:
+        Poetry Foundation</copyrightInfo>
+</root>

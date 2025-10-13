@@ -2,7 +2,20 @@ body {
 
     background:papayaWhip;
     /* background: LightSteelBlue; */
-    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+    /*font-family: Comic-sans, Arial, Helvetica, sans-serif; */
+    
+   font-family: Georgia, serif;
+   
+}
+
+.colorful {background-color:yellow;
+color:red;
+}
+
+nav { 
+    background: #c9ecf2;
+    font-weight: bold;
+
 }
 
 div.side-by-side {

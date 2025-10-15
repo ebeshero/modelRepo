@@ -31,3 +31,8 @@ img {
     background-color:pink;
     font-size: smaller;
 }
+
+ol.resume  { 
+    list-style-type: lower-roman;
+
+}

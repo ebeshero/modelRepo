@@ -1,18 +1,33 @@
 body {
 
-    background:papayaWhip;
+    background: papayaWhip;
     /* background: LightSteelBlue; */
     /*font-family: Comic-sans, Arial, Helvetica, sans-serif; */
-    
-   font-family: Georgia, serif;
-   
+
+    font-family: Georgia, serif;
+    line-height: 1.5em;
+    font-size: larger;
+
 }
 
-.colorful {background-color:yellow;
-color:red;
+div.flex { display:flex;
+
 }
 
-nav { 
+ul.resume {
+    list-style-type: circle;
+    border-style: groove;
+    border-color: coral;
+    border-width: 7px;
+
+}
+
+.colorful {
+    background-color: yellow;
+    color: red;
+}
+
+nav {
     background: #c9ecf2;
     font-weight: bold;
 
@@ -28,11 +43,6 @@ img {
 }
 
 .featureBlock {
-    background-color:pink;
+    background-color: pink;
     font-size: smaller;
-}
-
-ol.resume  { 
-    list-style-type: lower-roman;
-
 }

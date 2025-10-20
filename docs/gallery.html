@@ -10,7 +10,7 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
+        <title>Gallery</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
@@ -23,19 +23,41 @@
         <h1>Gallery</h1>
         <nav>
             <a href="index.html">Home</a> | <a href="resume.html">Résumé</a> | <a href="gallery.html">Gallery</a>
-            
         </nav>
         <p>This is my Gallery page.</p>
+        <div class="colorful">
+           <p>This div is here to be a different color and to show off how we
+           use class attributes.</p>   
+        </div>
         
+       
+        <p>Go back to my <a href="index.html">main page</a>.
+        </p>
         
+        <img src="images/littleNewt.jpg" />
+        
+
         <div class="side-by-side">
-            <p>Go back to my <a href="index.html">main page</a>.</p>
-            <figure>
+            
+            <figure class="trex">
+                <img src="images/tRex-MrRogers.jpg" />
+                <figcaption>T-Rex at the Hot Metal Bridge in Pittsburgh</figcaption>
+                
+            </figure>
+            
+            <figure class="newt">
+                <img src="images/littleNewt.jpg" />
+                <figcaption>Image of my firebelly newt, which
+                can be extremely huge without any CSS to control it.</figcaption>
+                
+            </figure>
+          
+          
+            <figure class="llama">
                 <img src="images/llama_mp.jpg" />
                 <figcaption>Here is a llama I encountered on an amazing hiking trip in Macchu
                     Picchu, on the Inca Trail.</figcaption>
             </figure>
-           
         </div>
         <footer class="featureBlock">
             <p>Shout out to the w3c community, and the developers of markup languages, and the oXygen XML editor!</p>

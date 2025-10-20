@@ -7,12 +7,50 @@ body {
     font-family: Georgia, serif;
     line-height: 1.5em;
     font-size: larger;
+    margin-left:5em;
+    margin-right:5em;
 
 }
 
-div.flex { display:flex;
+img {
+   width: 89%;
+   max-width: 500px;
 
 }
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+}
+
+
+div.side-by-side {
+    display: flex;
+    background-color: lavender;
+    width:90%;
+    
+}
+
+figure { 
+ background-color: green;
+
+ 
+
+}
+
+figure.trex{ 
+flex:1;}
+
+figure.newt {
+    flex:1 ;
+}
+
+figure.llama {
+    flex: 3;
+   
+}
+
+
 
 ul.resume {
     list-style-type: circle;
@@ -33,14 +71,8 @@ nav {
 
 }
 
-div.side-by-side {
-    display: flex;
-}
 
-img {
-    width: 59%;
-    max-width: 500px;
-}
+
 
 .featureBlock {
     background-color: pink;

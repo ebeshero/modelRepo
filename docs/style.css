@@ -68,9 +68,29 @@ ul.resume {
 nav {
     background: #c9ecf2;
     font-weight: bold;
+    font-size:2vw;
+    padding:4vw;   
 
 }
 
+nav.listStyle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+  display: flex;
+}
+
+nav.listStyle ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.listStyle ul li a:hover {
+  background-color: #111111;
+} 
 
 
 

@@ -9,6 +9,8 @@ body {
     font-size: larger;
     margin-left:5em;
     margin-right:5em;
+    
+
 
 }
 
@@ -60,9 +62,16 @@ ul.resume {
 
 }
 
-.colorful {
-    background-color: yellow;
-    color: red;
+div.threeD {
+    width:95%;
+    background:yellow;
+    
+}
+
+div.threeD iframe { 
+  width: 90%;
+  max-width: 1280px;
+  max-height: 720px;
 }
 
 nav {
